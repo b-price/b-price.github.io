@@ -1,0 +1,87 @@
+@font-face {
+    font-family: NeueMontreal;
+    src: url(fonts/PPNeueMontreal-Thin.otf);
+}
+@font-face {
+    font-family: NeueMontreal;
+    src: url(fonts/PPNeueMontreal-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: NeueMontreal;
+    src: url(fonts/PPNeueMontreal-Italic.otf);
+    font-style: italic;
+}
+
+a {
+    color:#878787;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#dedede;
+    cursor: pointer;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    border-style: solid;
+    border-color: #dedede;
+    color: #dedede;
+    height: 90svh;
+    width: 95svw;
+    margin: 2vw;
+}
+
+.title-cell {
+    grid-area: 1 / 1;
+    font-family: NeueMontreal;
+    color: #dedede;
+    
+}
+
+#title-text {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    font-size: 13svh;
+}
+#subtitle {
+    margin-top: 1em;
+    margin-left: 2vw;
+    font-size: 1.5em;
+}
+
+.top-right-corner {
+    font-size: 2em;
+    padding: 1.5em;
+    margin-top: 1vh;
+    margin-right: 2vw;
+    font-family: NeueMontreal;
+}
+
+.list {
+    font-size: 0.5em;
+    font-family: NeueMontreal;
+    color: #dedede;
+}
+
+.bottom-left-corner {
+    margin-left: 2vw;
+    font-size: 1.5em;
+    font-family: NeueMontreal;
+    color: #dedede;
+}
+
+.bottom-right-corner {
+    margin-left: 2vw;
+    font-size: 1.5em;
+    font-family: NeueMontreal;
+    color: #dedede;
+}
+
+body {
+    background-color: #121212;
+}
