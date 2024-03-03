@@ -18,6 +18,8 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ef5cf34974.js" crossorigin="anonymous"></script>
 
     <meta charset="UTF-8">
@@ -25,16 +27,25 @@
     <title>Ben Price</title>
 </head>
 <body>
-    <div class="grid-container">
-        <div class="title-cell">
-            <p id="title-text">//Ben Price</p>
-            <p id="subtitle">//Software Engineer</p>
+    <div class="flex-container">
+        <div class="title" style="flex-shrink: 2;">
+            
+                <p id="title-text">//Ben Price</p>
+            
+            <div class="sub-socials">
+                <p id="subtitle">//Software Engineer</p>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/ben-price-dev"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/b-price"><i class="fab fa-github"></i></a>
+                    <a href="mailto:bpricedev@gmail.com"><i class="fas fa-envelope"></i></a>  
+                </div>
+                
+            </div>
         </div>
-        <div class="top-right-corner">
-            <a href="https://www.linkedin.com/in/ben-price-dev"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/b-price"><i class="fab fa-github"></i></a>
-            <a href="mailto:bpricedev@gmail.com"><i class="fas fa-envelope"></i></a>  
-            <p>//Relevant Coursework</p>
+        
+        
+        <div class="coursework" style="flex-shrink: 2;">
+            <p class="headings">//Relevant Coursework</p>
             <ul class="list">
                 <li>COSC 490: Software Project Practicum</li>
                 <li>COSC 484: Web Development</li>
@@ -42,17 +53,18 @@
                 <li>COSC 432: Requirements Engineering</li>
             </ul>
         </div>
-        <div class="bottom-left-corner">
-            <p>//About Me</p>
+        <div class="about "style="align-self: flex-end;">
+            <p class="headings">//About Me</p>
             <ul>
                 <li>Student at Towson University</li>
                 <li>Studying for B.S. in Computer Science</li>
                 <li>Graduating Spring 2024</li>
                 <li>Prolific musician, photographer, and videographer</li>
+                <li><a href="resume.pdf">Resume</a></li>
             </ul>
         </div>
-        <div class="bottom-right-corner">
-            <p>//Selected Works</p>
+        <div class="works" style="align-self: flex-end;">
+            <p class="headings">//Selected Works</p>
             <ul>
                 <li>Pokemon Crystal RomHack</li>
                 <li>Budget Best</li>
