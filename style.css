@@ -68,6 +68,7 @@ a:hover {
 }
 
 .title {
+    white-space: nowrap;
     margin-left: 2vw;
     margin-top: 2vh;
     margin-bottom: 1px;
