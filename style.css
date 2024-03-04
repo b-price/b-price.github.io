@@ -22,13 +22,25 @@ html {
     color: #dedede;
 }
 
+#bg {
+    position: fixed;
+    z-index: -1;
+    pointer-events: none;
+    border: none;
+    height: 90svh;
+    width: 95svw;
+    margin: 2vw;
+    left: 10px;
+    top: 0;
+}
+
 * {
     box-sizing: border-box;
   }
 
 
 a {
-    color:#878787;
+    color:#adadad;
     text-decoration: none;
 }
 
