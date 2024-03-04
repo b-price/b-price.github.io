@@ -1,0 +1,144 @@
+@font-face {
+    font-family: NeueMontreal;
+    src: url(fonts/PPNeueMontreal-Thin.otf);
+}
+@font-face {
+    font-family: NeueMontreal;
+    src: url(fonts/PPNeueMontreal-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: NeueMontreal;
+    src: url(fonts/PPNeueMontreal-Italic.otf);
+    font-style: italic;
+}
+@font-face {
+    font-family: NeueMontrealBook;
+    src: url(fonts/PPNeueMontreal-Book.otf);
+}
+
+html {
+    font-family: NeueMontreal, sans-serif;
+    color: #dedede;
+}
+
+#bg {
+    position: fixed;
+    z-index: -1;
+    pointer-events: none;
+    border: none;
+    height: 90svh;
+    width: 95svw;
+    margin: 2vw;
+    left: 10px;
+    top: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
+a {
+    color:#adadad;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#dedede;
+    cursor: pointer;
+    
+}
+
+.headings {
+    font-family: NeueMontrealBook, sans-serif;
+    font-size: 1.5em;
+}
+
+.flex-container {
+    display: flex;
+    border-style: solid;
+    border-color: #dedede;
+    color: #dedede;
+    height: 90svh;
+    width: 95svw;
+    margin: 2vw;
+    overflow: scroll;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin-left: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 1px;
+    margin-right: 2vw;
+    padding-right: 4vw;
+    width: 50%;
+    height: auto;
+    /* border-style: solid;
+    border-color: #dedede; */
+}
+
+#title-text {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 13svh;
+}
+
+.sub-socials {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    gap: 1em;
+    font-size: 1.7em;
+    margin-bottom: 1px;
+}
+
+#subtitle {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.social {
+    font-size: 4em;
+    margin-top: 4em;
+    margin-left: 4em;
+    padding: 5em;
+    /* border-style: solid;
+    border-color: #dedede; */
+}
+
+.coursework {
+    overflow: hidden;
+    margin-left: 2vw;
+    font-size: 1.3em;
+    /* width: 30%; */
+    height: auto;
+    /* border-style: solid;
+    border-color: #dedede; */
+}
+
+.about {
+    overflow: hidden;
+    font-size: 1.3em;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 50%;
+    height: auto;
+    /* border-style: solid;
+    border-color: #dedede; */
+}
+
+.works {
+    overflow: hidden;
+    margin-left: 2vw; 
+    font-size: 1.3em;
+    /* width: 30%; */
+    height: auto;
+    /* border-style: solid;
+    border-color: #dedede; */
+}
+
+body {
+    background-color: #121212;
+}
