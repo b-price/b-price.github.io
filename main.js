@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'https://unpkg.com/three@0.162.0/build/three.module.js';
 // import { Color } from 'three';
 
 // import Stats from 'three/addons/libs/stats.module.js';
