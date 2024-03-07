@@ -18,8 +18,8 @@
 }
 
 html {
-    font-family: NeueMontreal, sans-serif;
-    color: #dedede;
+    font-family: NeueMontrealBook, sans-serif;
+    color: #121212;
 }
 
 #bg {
@@ -43,26 +43,26 @@ html {
 
 
 a {
-    color:#adadad;
+    color:#121212;
     text-decoration: none;
 }
 
 a:hover {
-    color:#dedede;
+    color:#8f8f8f;
     cursor: pointer;
     
 }
 
 .headings {
-    font-family: NeueMontrealBook, sans-serif;
+    
     font-size: 1.5em;
 }
 
 .flex-container {
     display: flex;
     border-style: solid;
-    border-color: #dedede;
-    color: #dedede;
+    border-color: #121212;
+    color: #121212;
     height: 90svh;
     width: 95svw;
     margin: 2vw;
@@ -80,13 +80,14 @@ a:hover {
     width: 50%;
     height: auto;
     /* border-style: solid;
-    border-color: #dedede; */
+    border-color: #121212; */
 }
 
 #title-text {
     margin-top: 1px;
     margin-bottom: 1px;
     font-size: 13svh;
+    font-family: NeueMontreal, sans-serif;
 }
 
 .sub-socials {
@@ -109,15 +110,15 @@ a:hover {
     margin-left: 4em;
     padding: 5em;
     /* border-style: solid;
-    border-color: #dedede; */
+    border-color: #121212; */
 }
 
 #mode-toggle {
-    color: #adadad
+    color: #121212
 }
  
 #mode-toggle:hover {
-    color: #dedede
+    color: #8f8f8f
 }
 
 .coursework {
@@ -127,7 +128,7 @@ a:hover {
     /* width: 30%; */
     height: auto;
     /* border-style: solid;
-    border-color: #dedede; */
+    border-color: #121212; */
 }
 
 .about {
@@ -138,7 +139,7 @@ a:hover {
     width: 50%;
     height: auto;
     /* border-style: solid;
-    border-color: #dedede; */
+    border-color: #121212; */
 }
 
 .works {
@@ -148,9 +149,9 @@ a:hover {
     /* width: 30%; */
     height: auto;
     /* border-style: solid;
-    border-color: #dedede; */
+    border-color: #121212; */
 }
 
 body {
-    background-color: #121212;
+    background-color: #dedede;
 }

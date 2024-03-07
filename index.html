@@ -29,35 +29,32 @@
         }
       </script>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style.css">
+    <link id="style" rel="stylesheet" href="/style.css">
     <title>Ben Price</title>
 </head>
 <body>
     <div class="flex-container">
         <iframe id="bg" src="/bg.html"></iframe>
         <div class="title" style="flex-shrink: 2;">
-            
                 <p id="title-text">//Ben Price</p>
-            
             <div class="sub-socials">
                 <p id="subtitle">//Software Engineer</p>
                 <div class="socials">
                     <a href="https://www.linkedin.com/in/ben-price-dev"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/b-price"><i class="fab fa-github"></i></a>
-                    <a href="mailto:bpricedev@gmail.com"><i class="fas fa-envelope"></i></a>  
+                    <a href="mailto:bpricedev@gmail.com"><i class="fas fa-envelope"></i></a> 
+                    <i id="mode-toggle" onclick="toggle()" class="fa-regular fa-sun"></i> 
                 </div>
-                
             </div>
         </div>
-        
-        
         <div class="coursework" style="flex-shrink: 2;">
             <p class="headings">//Relevant Coursework</p>
             <ul class="list">
                 <li>COSC 490: Software Project Practicum</li>
                 <li>COSC 484: Web Development</li>
-                <li>COSC 455: Programming Lannguages</li>
+                <li>COSC 455: Programming Languages</li>
                 <li>COSC 432: Requirements Engineering</li>
+                <li>COSC 436: Object-Oriented Programming</li>
             </ul>
         </div>
         <div class="about" style="align-self: flex-end;">
@@ -67,20 +64,19 @@
                 <li>Studying for B.S. in Computer Science</li>
                 <li>Graduating Spring 2024</li>
                 <li>Prolific musician, photographer, and videographer</li>
-                <li><a href="resume.pdf">Resume</a></li>
+                <li><a href="Resume.pdf">Resume</a></li>
             </ul>
         </div>
         <div class="works" style="align-self: flex-end;">
             <p class="headings">//Selected Works</p>
             <ul>
-                <li>Pokemon Crystal RomHack</li>
-                <li>Budget Best</li>
-                <li>Pixel Arcade</li>
-                <li>MojoMut</li>
-                <li>LLM Requirements Engineering Research</li>
+                <li>Python: <a href="https://github.com/b-price/lc-lq-automation">LLM Requirements Engineering Research</a></li>
+                <li>Z80 Assembly: <a href="https://github.com/b-price/pokemon_crystal_version_star">Pokemon Crystal Version *</a></li>
+                <li>JS/React: <a href="https://github.com/b-price/budget-best">Budget Best</a></li>
+                <li>Kotlin: MoodMarker</li>
+                <li>Python/Mojo: <a href="https://github.com/b-price/mojomut">MojoMut</a></li>
             </ul>
         </div>
-        
     </div>
-    
+    <script src="/toggle.js"></script>
 </body>
