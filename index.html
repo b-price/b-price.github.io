@@ -29,10 +29,14 @@
         }
       </script>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style.css">
+    <link id="style" rel="stylesheet" href="/style.css">
     <title>Ben Price</title>
 </head>
 <body>
+    <!-- <div class="toggle">
+        <i class="fa-solid fa-moon"></i>
+        <i class="fa-regular fa-sun"></i>
+    </div> -->
     <div class="flex-container">
         <iframe id="bg" src="/bg.html"></iframe>
         <div class="title" style="flex-shrink: 2;">
@@ -44,7 +48,8 @@
                 <div class="socials">
                     <a href="https://www.linkedin.com/in/ben-price-dev"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/b-price"><i class="fab fa-github"></i></a>
-                    <a href="mailto:bpricedev@gmail.com"><i class="fas fa-envelope"></i></a>  
+                    <a href="mailto:bpricedev@gmail.com"><i class="fas fa-envelope"></i></a> 
+                    <i id="mode-toggle" onclick="toggle()" class="fa-regular fa-sun"></i> 
                 </div>
                 
             </div>
@@ -82,5 +87,5 @@
         </div>
         
     </div>
-    
+    <script src="/toggle.js"></script>
 </body>
