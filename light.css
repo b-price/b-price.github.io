@@ -32,6 +32,7 @@ html {
     margin: 2vw;
     left: 10px;
     top: 0;
+    overflow: hidden;
     /* flex-grow: 1;
     margin: 0;
     padding: 0; */
@@ -43,12 +44,12 @@ html {
 
 
 a {
-    color:#121212;
+    color:#6d6d6d;
     text-decoration: none;
 }
 
 a:hover {
-    color:#8f8f8f;
+    color:#121212;
     cursor: pointer;
     
 }
@@ -118,7 +119,7 @@ a:hover {
 }
  
 #mode-toggle:hover {
-    color: #8f8f8f
+    color: #6d6d6d
 }
 
 .coursework {
@@ -154,4 +155,30 @@ a:hover {
 
 body {
     background-color: #dedede;
+}
+
+@media only screen and (max-width: 480px) {
+    #title-text {
+        font-size: 17svw;
+    }
+    .headings {
+        font-size: 7svw;
+    }
+    .coursework, .about, .works {
+        font-size: 6svw;
+        width: 90%;
+    }
+    .flex-container, #bg {
+        margin: 1vw;
+    }
+    #bg {
+        top: 5px;
+        left: 8px;
+    }
+}
+
+@media only screen and (max-height: 400px) {
+    #title-text {
+        font-size: 25svh;
+    }
 }
