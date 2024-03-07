@@ -11,6 +11,5 @@ function toggle(){
     } else {
         theme.setAttribute("href", "/style.css")
         toggleButton.setAttribute("class", "fa-regular fa-sun")
-    }
-    
+    } 
 }
