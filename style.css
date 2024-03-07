@@ -121,6 +121,10 @@ a:hover {
     color: #dedede
 }
 
+.list {
+    list-style: "//  ";
+}
+
 .coursework {
     overflow: hidden;
     margin-left: 2vw;
