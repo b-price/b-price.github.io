@@ -1,6 +1,5 @@
 import * as THREE from 'https://unpkg.com/three@0.162.0/build/three.module.js';
 // import { Color } from 'three';
-
 // import Stats from 'three/addons/libs/stats.module.js';
 
 let container, stats, clock;
@@ -19,17 +18,12 @@ init();
 animate();
 
 function init() {
-
     container = document.body;
-
-    //
 
     camera = new THREE.PerspectiveCamera( 7, window.innerWidth / window.innerHeight, 10, 4000 );
     camera.position.z = 2400;
 
     scene = new THREE.Scene();
-    
-
     clock = new THREE.Clock();
 
     const geometry = new THREE.BufferGeometry();
@@ -55,7 +49,6 @@ function init() {
         colors.push( rand );
         colors.push( rand );
         colors.push( rand );
-
     }
 
     geometry.setAttribute( 'position', new THREE.Float32BufferAttribute( positions, 3 ) );
@@ -67,20 +60,14 @@ function init() {
     line = new THREE.Line( geometry, material );
     scene.add( line );
 
-    //
-
     renderer = new THREE.WebGLRenderer( {alpha: true} );
     renderer.setPixelRatio( window.devicePixelRatio );
     renderer.setSize( window.innerWidth, window.innerHeight );
 
     container.appendChild( renderer.domElement );
 
-    //
-
     // stats = new Stats();
     // container.appendChild( stats.dom );
-
-    //
 
     window.addEventListener( 'resize', onWindowResize );
     scene.background = null;
@@ -92,7 +79,6 @@ function onWindowResize() {
     camera.updateProjectionMatrix();
 
     renderer.setSize( window.innerWidth, window.innerHeight );
-
 }
 
 //
